@@ -17,10 +17,23 @@ body{
     width: 20%;
 }
 
+.section-header{
+    text-align: center;
+}
+
+label{
+    font-weight: normal;
+}
+
 .form-block{
     width: 30%;
     margin-left: 35%;
     background-color: lightblue;
     border-radius: 15px;
     padding: 2%;
+}
+
+.radio-buttons{
+    width: 2%;
+    height: 2%;
 }
