@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>title</title>
+  </head>
+  <body>
+    <div class='Container'>
+        <div class='jumbotron'>
+            <h1 id='title'>WoW Survey Form</h1>
+            <hr>
+            <p id='description'>Collecting data for a future expansion...</p>
+        </div>
+    </div>
+    <div class='Container'>
+       <div class='form-block'> 
+            <form id='survey-form'>
+                <div class="form-group">
+                    <label id="name-label" for="name">Name:</label>
+                    <input id='name' name='name' placeholder="full name" type="text" class="form-control" required>
+                </div>
+                <div class='form-group'>
+                    <label id='email-label' for='email'>Email:</label>
+                    <input id='email' name='email' placeholder="example@gmail.com" type='email' class='form-control' required>
+                </div>
+                <div class='form-group'>
+                    <label id='number-label' for='number'>Age:</label>
+                    <input id='number' name='age' placeholder='18-45' type='number' class='form-control' min="18" max="100" required>
+                </div>
+                <div class='form-group'>
+                    <label for='dropdown'>Favorite Race</label>
+                    <select id='dropdown' name='dropdown' type='text' class='form-control' required>
+                        <option value="Orc">Orc</option>
+                        <option value="Tauren">Tauren</option>
+                        <option value="Troll">Troll</option>
+                        <option value='UnDead'>Undead</option>
+                        <option value="BloodElf">Blood Elf</option>
+                        <option value="Human">Human</option>
+                        <option value="Dwarf">Dwarf</option>
+                        <option value="Night Elf">Night Elf</option>
+                        <option value="Gnome">Gnome</option>
+                        <option value="Draenei">Draenei</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
