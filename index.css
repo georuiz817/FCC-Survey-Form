@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
  
 body{
     font-family: 'Lora', serif;
@@ -7,11 +7,12 @@ body{
     background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
 }
 
-.jumbotron{
+.jumbotron {
     background-color: inherit;
     color: black;
     text-align: center;
 }
+
 .jumbotron p{
     font-size: small;
     font-style: italic;
@@ -39,4 +40,8 @@ label{
 .radio-buttons input{
     margin-right: 10px;
     display: inline;
+}
+
+.btn{
+    width: 100%;
 }
